@@ -1,0 +1,26 @@
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.ud{
+    color: black;
+}
+li.hover{
+color: blue;    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown-content a{
+    list-style-type: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
